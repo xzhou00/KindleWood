@@ -1,0 +1,18 @@
+只保留这一个 KindleWood 文件夹，里面就是完整网站。
+
+本地入口：http://127.0.0.1:4173/#home
+
+首页 → Open workspace → 点击 Teacher 或 Family，直接进入
+Teacher → Teacher Studio
+Family → Book Studio
+Website → 回官网
+Start over / Switch workspace → 返回身份选择页，不清空已有书籍
+
+如果服务没启动，在这个文件夹里运行：
+python3 -m http.server 4173 --bind 127.0.0.1
+
+上传 GitHub 时，把这个文件夹里面的全部内容上传到仓库根目录。
+不要只上传 index.html，也不要改变两个 studio 子文件夹的名字。
+Settings → Pages → Deploy from a branch → main → / (root) → Save。
+
+登录、AI 和分享继续保持前端原型行为。
