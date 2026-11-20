@@ -1,12 +1,22 @@
+最新完整版本：2026-11-20
+包含官网、Teacher Studio、Book Studio，以及最新首页、三个 Tab、产品介绍、阅读科学页面、标题和白色铅笔 Logo。
+
+GitHub 更新：先解压 KindleWood-GitHub.zip，再将解压后的所有文件和文件夹上传到原仓库根目录，覆盖同名文件。
+index.html 应直接位于仓库根目录。不要把 zip 本身作为网站上传，也不要再套一层文件夹。
+
 只保留这一个 KindleWood 文件夹，里面就是完整网站。
 
-本地入口：http://127.0.0.1:4173/#home
+直接打开：双击本文件夹里的 index.html。
+保持 teacher-studio、book-studio 和 assets 文件夹在原位。
 
-首页 → Open workspace → 点击 Teacher 或 Family，直接进入
+Preview 入口：http://127.0.0.1:4173/#home
+
+首页 → Open workspace → 点击 Teacher 或 Author & family，直接进入
 Teacher → Teacher Studio
-Family → Book Studio
+Author & family → Book Studio
 Website → 回官网
-Start over / Switch workspace → 返回身份选择页，不清空已有书籍
+Switch workspace → 返回身份选择页，保留内容
+Start over → 清空当前 Studio 的演示数据，回到全新用户首页；不备份、无恢复入口
 
 如果服务没启动，在这个文件夹里运行：
 python3 -m http.server 4173 --bind 127.0.0.1
@@ -16,3 +26,6 @@ python3 -m http.server 4173 --bind 127.0.0.1
 Settings → Pages → Deploy from a branch → main → / (root) → Save。
 
 登录、AI 和分享继续保持前端原型行为。
+
+绘本：输入故事 → 可选角色和故事设置 → Make my picture book → 直接进入编辑器。
+封面和正文统一用左右箭头翻页，设置和角色也可在生成后调整。

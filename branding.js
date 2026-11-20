@@ -1,0 +1,1 @@
+(()=>{const source=new URL('assets/kindlewood-mark.png?v=white-pencil-1',window.KWLinks.website).href;window.KWBrand={mark:(extra='')=>`<span class="kw-logo ${extra}" aria-hidden="true"><img src="${source}" alt=""></span>`};})();
